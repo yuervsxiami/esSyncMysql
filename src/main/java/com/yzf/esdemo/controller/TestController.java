@@ -49,7 +49,7 @@ public class TestController {
     public void test(){
         kafkaSender.createTopic(kafkaHost, topic, partNum, repeatNum);
         kafkaSender.send(topic,"tes2hahaa");
-        kafkaSender.send(topic,"test1hahaa");
+        kafkaSender.send(topic,"test3ahaa");
 
     }
 
