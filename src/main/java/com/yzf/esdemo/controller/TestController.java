@@ -48,22 +48,22 @@ public class TestController {
     @GetMapping("/test")
     public void test(){
         kafkaSender.createTopic(kafkaHost, topic, partNum, repeatNum);
-        kafkaSender.send(topic,"testhhahaa");
+        kafkaSender.send(topic,"tes2hahaa");
+        kafkaSender.send(topic,"test1hahaa");
+
     }
 
     @GetMapping("/save")
     public void saveEl(){
         VoucherDTO build = VoucherDTO.builder().id(1111l)
-
-                .fhr("2")
+                .kprq(new Date())
+                .kjqj(1)
+                .fhr("3")
                 .kjnd(1)
                 .fhrq(new Date())
                 .bbh(22l)
                 .fjs(2)
                 .jlrq(new Date())
-
-                .kjqj(1)
-                .kprq(new Date())
                 .lsh(1)
                 .ly("1")
                 .pzz(1)
