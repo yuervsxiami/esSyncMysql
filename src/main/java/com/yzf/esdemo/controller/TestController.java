@@ -54,8 +54,9 @@ public class TestController {
     @GetMapping("/save")
     public void saveEl(){
         VoucherDTO build = VoucherDTO.builder().id(1111l)
-                .bbh(111l)
-                .fhr("1")
+
+                .fhr("2")
+                .bbh(12l)
                 .fhrq(new Date())
                 .fjs(1)
                 .jlrq(new Date())
