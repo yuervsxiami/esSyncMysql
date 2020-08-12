@@ -56,11 +56,12 @@ public class TestController {
         VoucherDTO build = VoucherDTO.builder().id(1111l)
 
                 .fhr("2")
-                .bbh(12l)
-                .fhrq(new Date())
-                .fjs(1)
-                .jlrq(new Date())
                 .kjnd(1)
+                .fhrq(new Date())
+                .bbh(22l)
+                .fjs(2)
+                .jlrq(new Date())
+
                 .kjqj(1)
                 .kprq(new Date())
                 .lsh(1)
